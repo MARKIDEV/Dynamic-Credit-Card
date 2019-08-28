@@ -1,0 +1,75 @@
+.App {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 430px;
+  height: 250px;
+  padding: 25px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.credit-card-EMVShip {
+  width: 50px;
+  height: auto;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  width: 60px;
+}
+.credit-card-Number {
+  background-color: #a5974d;
+  width: 307px;
+  opacity: 0.4;
+  font-size: 26px;
+}
+.credit-card-Title {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+.crd-Content {
+  display: flex;
+  justify-content: space-between;
+}
+.credit-card-Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 50px;
+}
+.crd-ref {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  height: 50px;
+  font-weight: normal;
+}
+
+.crd-valid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.crd-valid > img {
+  width: 19px;
+}
+
+.crd-crea {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 56px;
+}
+.crd-crea-time {
+  font-size: 30px;
+  font-weight: bold;
+}
+.credit-card-Holder {
+  margin-top: 10px;
+}
+.credit-card-Visa {
+  width: 80px;
+}
